@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+ 
+    <link rel="shortcut icon" href="images/logo1.webp" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woof Meow - Mua, bán chó mèo và các sản phẩm liên quan cho thú cưng nhà bạn</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <!-- gọi điện -->
+  <div class="wrap_goingay">
+    <div class="goingay">
+      <div class="pgoingay">
+        <i class='bx bxs-phone-call'>
+        </i>
+
+      </div>
+    </div>
+    <div class="hdphone">
+      0987654321
+    </div>
+  </div>
+  <!-- header -->
+  
+    <header>
+      <div class="logo-head">
+        <img src="D:\Đồ án GK (3)\wOOFmeow.png" alt="" width="120px" height="120px">
+      </div>
+
+      <div class="search-container">
+        <input type="text" class="search-box" placeholder="Tìm Kiếm...">
+        <a href=""><i class='bx bx-search-alt' ></i></a>
+      </div>
+
+      <div class="support">
+        <div class="support-top">
+        <ul>
+          <li>
+            <a href=""><i class='bx bxs-phone'></i></a>
+            <a href="">0283 8940 390</a>
+          </li>
+
+          <li>
+            <a href=""><i class='bx bx-user'></i></a>
+            <a href="dkdn.html.html">Đăng nhập/Đăng ký</a>
+          </li>
+
+          <li>
+            <div class="shopping-cart">
+              <i class='bx bxs-shopping-bags'></i>
+              <div class="cart_child">
+                <strong>Thông Tin Sản Phẩm:</strong>
+                <table class="cart-table" id="cartTable">
+                  <thead>
+                    <tr>
+                      <th>Sản Phẩm</th>
+                      <th>Số Lượng</th>
+                      <th>Giá tiền</th>
+                      <th style="display: block;">Xóa</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="cart-item" id="defaultCartItem">
+                      <td class="anh-sp">
+                        <img src="images/sp1.jpg" alt="">
+                        <p class="pro-title"></p>
+                      </td>
+                      <td class="sl">
+                        <input style="height: 40px; width: 100px;" type="number" id="quantity" value="1" min="1">
+                      </td>
+                      <td class="gia">
+                        <p style="height: 40px; width: 100px;"></p>
+                      </td>
+                      <td class="remove">
+                        <i class="bi bi-trash-fill"></i>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="cart-total">
+                  <strong class="cart-total-title">Tổng Cộng:</strong>
+                  <span class="cart-total-price">0</span>VNĐ
+              </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- menu -->
+    <div class="menu-tong">
+        <ul class="menu">
+            <li><a href="trangchu.html">TRANG CHỦ</a></li>
+            <li><a href="">THÚ CƯNG <i class="bi bi-caret-down-fill"></i></a>
+                <ul class="fix-p">
+                    <li><a href="cho.html">Chó</a></li>
+                    <li><a href="meo.html">Mèo</a></li>
+                </ul>
+            </li>
+            <li><a href="">BLOGS <i class="bi bi-caret-down-fill"></i></a>
+              <ul class="fix-p">
+                <li><a href="blogt1.html">Hướng dẫn chăm sóc thú cưng</a></li>
+                <li><a href="blogt2.html">Tiêm ngừa thú cưng</a></li>
+                <li><a href="blogt3.html">Tin tức về thú cưng</a></li>
+            </ul>
+            </li>
+            <li><a href="thucan.html">THỨC ĂN</a></li>
+            <li><a href="phukien.html">PHỤ KIỆN</a></li>
+            <li><a href="lienhe.html">LIÊN HỆ</a></li>
+            <li><a href="sos.html">SOS</a></li>
+            
+        </ul>
+
+    </div>
+    <!-- slide -->
+    
+    <div class="">
+      <img class="mySlides" src="./WOOF MEOW.png" alt="..." height="628px" width="100%">
+      <img class="mySlides" src="https://thucanthucung.tochau.com.vn/wp-content/uploads/2023/02/banner-2.jpg" class="d-block w-100"
+          alt="..." height="628px" width="100%">
+      <img class="mySlides" src="https://theme.hstatic.net/1000238938/1000576591/14/banner_collection.jpg?v=325" class="d-block w-100"
+          alt="..." height="628px" width="100%">
+    </div>
+    <br><br>
+
+    <!--banner-icons1-->
+    <div class="banner-icons1">
+      <img src="https://paddy.vn/cdn/shop/files/icon_web-01_1880x.png?v=1692851925" alt="Hình ảnh 1" height="100px" width="100px">
+      <img src="https://paddy.vn/cdn/shop/files/icon_web-02_1880x.png?v=1692851981" alt="Hình ảnh 2" height="100px" width="100px">
+      <img src="https://paddy.vn/cdn/shop/files/icon_web-03_1880x.png?v=1692853446" alt="Hình ảnh 3" height="100px" width="100px">
+      <img src="https://paddy.vn/cdn/shop/files/icon_web-04_1880x.png?v=1692853499" alt="Hình ảnh 4" height="100px" width="100px">
+    </div>
+
+    <br>
+
+    <!--banner-icons2-->
+    <div class="banner-icons2">
+      <img src="https://paddy.vn/cdn/shop/files/dog_banner_1370x.jpg?v=1670135189" alt="Hình ảnh 5" height="200px" width="500px">
+      <img src="https://paddy.vn/cdn/shop/files/cat_banner_1370x.jpg?v=1670135516" alt="Hình ảnh 6" height="200px" width="500px">
+    </div>
+
+    <br><br>
+
+    <!--Sản phẩm nổi bật-->
+    <!--Bộ sưu tập cho mèo con-->
+    <div class="bosuutap">
+      <h2>BỘ SƯU TẬP CHO MÈO CON</h2>
+    </div>
+    
+    <section class="products">
+
+      <div class="product">
+        <img src="https://azpet.com.vn/wp-content/uploads/2022/09/M837-M12538-1.jpg" alt="Mèo anh lông ngắn">
+        <h2><a href="meoanhlongngan.html">Mèo Anh Lông Ngắn</a></h2>
+      </div>
+    
+      <div class="product">
+        <img src="https://azpet.com.vn/wp-content/uploads/2021/10/Anh-Long-Dai-Tabby-M12231-1.jpg" alt=" Mèo Anh Lông Dài ">
+        <h2><a href="meoanhlongdai.html"> Mèo Anh Lông Dài </a></h2>
+      </div>
+
+      <div class="product">
+        <img src="https://paddy.vn/cdn/shop/files/Pate_meo_con_e8c96144-57aa-49a1-aa57-ac24b820fcdb_940x.jpg?v=1695354390" alt="Thức Ăn Cho Mèo Con">
+        <h2><a href="thucanmeo.html">Thức Ăn Cho Mèo </a></h2>
+      </div>
+
+      <div class="product">
+        <img src="https://www.petmart.vn/wp-content/uploads/2019/06/yem-cho-cho-meo-kem-day-dat-ambaby-pet-1jxs058-400x400.jpg" alt="Phụ kiện cho mèo">
+        <h2><a href="phukienmeo.html">Phụ Kiện Cho Mèo </a></h2>
+      </div>
+    
+      <div class="product">
+        <img src="https://kimipet.vn/wp-content/uploads/2021/12/nhung-benh-thuong-gap-o-meo.jpg" alt="tiêm ngừa">
+        <h2><a href="blogt2.html"> Tiêm Ngừa Thú Cưng </a></h2>
+      </div>
+    </section>
+    
+    <br>
+    
+    <!--Bộ sưu tập cho chó con-->
+    <div class="bosuutap">
+      <h2>BỘ SƯU TẬP CHO CHÓ CON</h2>
+    </div>
+    
+    <section class="products">
+
+      <div class="product">
+        <img src="https://kpethouse.com/wp-content/uploads/2023/06/poodle-trang-an-gi.jpg" alt="Cún con mini ">
+        <h2><a href="chomini.html"> Cún Con Mini </a></h2>
+      </div>
+    
+      <div class="product">
+        <img src="https://matpetfamily.com/wp-content/uploads/2022/07/cf2c4c3b0e4fcc11955e.jpg" alt="cún con vừa ">
+        <h2><a href="chovua.html"> Cún Con Vừa </a></h2>
+      </div>
+    
+      <div class="product">
+        <img src="https://www.petmart.vn/wp-content/uploads/2021/06/thuc-an-cho-cho-con-co-nho-royal-canin-mini-puppy1-400x400.jpg" alt="Thức Ăn Cho Chó ">
+        <h2><a href="thucancho.html"> Thức Ăn Cho Chó </a> </h2>
+      </div>
+    
+      <div class="product">
+        <img src="https://www.petmart.vn/wp-content/uploads/2019/06/quan-ao-cho-cho-meo-ambaby-pet-2jxf164-400x400.jpg" alt="Sữa Tắm Cho Chó Con">
+        <h2><a href="phukiencho.html">Phụ Kiện Cho Chó</a></h2>
+      </div>
+    
+      <div class="product">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.iCoVkbHMFnMzzeLIw57l6gHaE8&pid=Api&P=0&h=220" alt="Đồ Chơi Cho Mèo">
+        <h2><a href="blogt1.html">Hướng Dẫn Chăm Sóc</a></h2>
+      </div>
+    </section>
+
+  
+    <!-- nổi bật 1-->
+    
+    <div class="noibat container">
+        <h2> CHÚ CÚN NỔI BẬT </h2>
+        <div class="noibat-border">
+            <img src="https://cdn-icons-png.flaticon.com/128/6481/6481783.png" alt="" width="40px" height="40px">
+        </div>
+    
+    
+    <section class="nb-section">
+      <div class="spnb">
+         <div class="mySlidesnb">
+           <img src="https://thichthucung.com/wp-content/uploads/cho-bulldog-phap-mini.jpg"  >
+           <p  style="color:red;"> <a href="mdog02.html"> Bulldog Pháp Mini DOG02</a></p>
+           <p> <strong>12.000.000 <sup>đ</sup></strong></p>
+           <button> <a href="mdog02.html"> Xem Ngay </a>  </button>
+         </div>
+       
+         <div class="mySlidesnb">
+           <img src="https://kpethouse.com/wp-content/uploads/2023/06/poodle-trang-an-gi.jpg" >
+           <p  style="color:red;"> <a href="mdog03.html">Poodle Trắng Mini DOG03</a></p>
+           <p> <strong>5.000.000 <sup>đ</sup></strong></p>
+           <button> <a href="mdog03.html"> Xem Ngay </a>  </button>
+         </div>
+       
+         <div class="mySlidesnb">
+           <img src="https://azpet.com.vn/wp-content/uploads/2022/07/C2408-C13021-3.jpg" >
+           <p  style="color:red;"> <a href="mdog04.html">Alaska Standard Nâu Đỏ DOG04</a></p>
+           <p> <strong>9.500.000 <sup>đ</sup></strong></p>
+           <button> <a href="mdog04.html"> Xem Ngay </a>  </button>
+         </div>
+       
+         <div class="mySlidesnb">
+           <img src="https://azpet.com.vn/wp-content/uploads/2021/07/Pug-Vang-Kim-C12243-1.jpg" >
+           <p  style="color:red;"> <a href="mdog06.html">Pug Vàng Kim DOG06</a></p>
+           <p> <strong>7.900.000 <sup>đ</sup></strong></p>
+           <button> <a href="mdog06.html"> Xem Ngay </a>  </button>
+         </div>
+       
+         <div class="mySlidesnb">
+           <img src="https://matpetfamily.com/wp-content/uploads/2022/07/cf2c4c3b0e4fcc11955e.jpg" >
+           <p  style="color:red;"> <a href="mdog07.html">Golden Màu Vàng Đậm DOG07</a></p>
+           <p> <strong>12.500.000 <sup>đ</sup></strong></p>
+           <button> <a href="mdog07.html"> Xem Ngay </a>  </button>
+         </div>
+       
+         <div class="mySlidesnb">
+           <img src="https://tunglocpet.com/wp-content/uploads/2014/11/siberian-husky-03.jpg" >
+           <p  style="color:red;"> <a href="mdog09.html">Siberian Husky DOG09 </a></p>
+           <p> <strong>10.500.000</strong>00.000<sup>đ</sup></strong></p>
+           <button> <a href="mdog09.html"> Xem Ngay </a>  </button>
+         </div>
+       
+         <div class="mySlidesnb">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSovuB9PAaEvN57hVfKqReRaH6al5Yxn0wApABYHCDfmLBs5BhefM8AreTB1GQ06DAkBq8&usqp=CAU" >
+           <p  style="color:red;"> <a href="mdog10.html">Furicious Corgi DOG10</a></p>
+           <p> <strong>20.500.000<sup>đ</sup></strong></p>
+           <button> <a href="mdog10.html"> Xem Ngay </a>  </button>
+         </div>
+       
+       <div class="prevnb" onclick="plusSlidesnb(-1)">&#10094;</div>
+       <div class="nextnb" onclick="plusSlidesnb(1)">&#10095;</div>
+   </div>
+</section>
+    </div>
+
+    <!-- nổi bật 2-->
+    <div class="noibat container">
+        <h2> BÉ MÈO YÊU THÍCH </h2>
+      <div class="noibat-border">
+          <img src="https://cdn-icons-png.flaticon.com/128/9152/9152624.png" alt="" width="40px" height="40px"> </div>
+
+          <section class="nb1-section">
+            <div class="spnb1">
+               <div class="mySlidesnb1">
+                 <img src="https://azpet.com.vn/wp-content/uploads/2022/09/M837-M12538-1.jpg"  >
+                 <p  style="color:red;"> <a href="mcat02.html"> Anh Lông Ngắn Bicolor CAT02</a></p>
+                 <p> <strong>4.000.000 <sup>đ</sup></strong></p>
+                 <button> <a href="mcat02.html"> Xem Ngay </a>  </button>
+               </div>
+             
+               <div class="mySlidesnb1">
+                 <img src="https://azpet.com.vn/wp-content/uploads/2022/09/M828-M12531-1.jpg" >
+                 <p  style="color:red;"> <a href="mcat03.html">Anh Lông Ngắn Tabby CAT03</a></p>
+                 <p> <strong>6.000.000 <sup>đ</sup></strong></p>
+                 <button> <a href="mcat03.html"> Xem Ngay </a>  </button>
+               </div>
+             
+               <div class="mySlidesnb1">
+                 <img src="https://azpet.com.vn/wp-content/uploads/2022/09/M830-M12532-1.jpg" >
+                 <p  style="color:red;"> <a href="mcat04.html">Anh Lông Ngắn Black Gold CAT04 </a></p>
+                 <p> <strong>6.500.000 <sup>đ</sup></strong></p>
+                 <button> <a href="mcat04.html"> Xem Ngay </a>  </button>
+               </div>
+             
+               <div class="mySlidesnb1">
+                 <img src="https://azpet.com.vn/wp-content/uploads/2022/08/M809-M12513-1.jpg" >
+                 <p  style="color:red;"> <a href="mcat05.html"> Anh Lông Ngắn Lilac CAT05 </a></p>
+                 <p> <strong>9.600.000 <sup>đ</sup></strong></p>
+                 <button> <a href="mcat05.html"> Xem Ngay </a>  </button>
+               </div>
+             
+               <div class="mySlidesnb1">
+                 <img src="https://azpet.com.vn/wp-content/uploads/2022/04/M700-1.jpg" >
+                 <p  style="color:red;"> <a href="mcat07.html"> Anh Lông Dài Orange CAT07</a></p>
+                 <p> <strong>4.000.000 <sup>đ</sup></strong></p>
+                 <button> <a href="mcat07.html"> Xem Ngay </a>  </button>
+               </div>
+             
+               <div class="mySlidesnb1">
+                 <img src="https://azpet.com.vn/wp-content/uploads/2022/03/M650-M12394-6.jpg" >
+                 <p  style="color:red;"> <a href="mcat09.html">Anh Lông Dài Xanh Xám CAT09 </a></p>
+                 <p> <strong>3.800.000<sup>đ</sup></strong></p>
+                 <button> <a href="mcat09.html"> Xem Ngay </a>  </button>
+               </div>
+             
+               <div class="mySlidesnb1">
+                 <img src="https://azpet.com.vn/wp-content/uploads/2021/07/Anh-Long-Dai-Socola-M12197-1.jpg" >
+                 <p  style="color:red;"> <a href="mcat11.html">Anh Lông Dài Socola CAT11 </a></p>
+                 <p> <strong>6.600.000<sup>đ</sup></strong></p>
+                 <button> <a href="mcat11.html"> Xem Ngay </a>  </button>
+               </div>
+             
+             <div class="prevnb1" onclick="plusSlidesnb1(-1)">&#10094;</div>
+             <div class="nextnb1" onclick="plusSlidesnb1(1)">&#10095;</div>
+         </div>
+     </section>
+      </div>
+    
+
+   
+
+      
+    </div>
+  </div>
+  <!-- footter -->
+  <footer>
+    <div class="footer-left">
+      <h4><strong>SƠ LƯỢC VỀ WOOF MEOW <br> </strong></h4>
+      <li>Woof meow là nơi cung cấp dịch vụ mua bán chó mèo thuần <br> chủng, các sản phẩm như quần áo và đồ ăn cho thú
+        cưng. <br> Đồng thời còn là nơi cưu mang các bé bị bỏ rơi hoặc sẽ được<br> shop cứu trợ, chăm sóc và nhận nuôi,
+        tìm kiếm chủ mới cho<br> các bé. <br> Woof meow hiện tại có một cửa hàng chính tại Gò Vấp, TP.HCM<br> Ngoài ra,
+        website còn có blog chia sẻ kiến thức nuôi chó mèo.<br> </li>
+    </div>
+    <div class="footer-center1">
+      <h4><strong>LIÊN KẾT</strong></h4>
+      <li><a href=""> &#10148; Tìm kiếm</a></li>
+      <li><a href=""> &#10148; Giới thiệu</a></li>
+      <li><a href=""> &#10148; Chính sách đổi trả</a></li>
+      <li><a href=""> &#10148; Chính sách bảo mật</a></li>
+      <li><a href=""> &#10148; Chính sách thanh toán</a></li>
+      <li><a href=""> &#10148; Chính sách vận chuyển và giao nhận</a></li>
+      <li><a href=""> &#10148; Chính sách xử lý khiếu nại</a></li>
+      <li><a href=""> &#10148; Chính sách kiểm hàng</a></li>
+    </div>
+    <div class="footer-right">
+      <h4><strong>THÔNG TIN LIÊN HỆ</strong></h4>
+      <li>Địa chỉ: Số 12, Nguyễn Văn Bảo, Phường 4, <br> Quận Gò Vấp, TP.HCM </li>
+      <li>SĐT: 0283 8940 390</li>
+      <li> </li>
+      <div class="icon">
+        <ul>
+          <li><a href=""><i class='bx bxl-facebook-circle'></i></a></li>
+          <li><a href=""><i class='bx bxl-youtube'></i></a></li>
+          <li><a href=""><i class='bx bxl-twitter' ></i></a></li>
+          <li><a href=""><i class='bx bxl-instagram-alt' ></i></a></li>
+        </ul>
+      </div>
+      <div class="sec quiclink">
+        <h4><a href=""><i class="fa fa-map-marker" aria-hidden="true"></i>
+        </a> ĐỊA CHỈ</h4>
+        <ul>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15673.820904911476!2d106.6295448!3d10.8529391!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x11690ada8c36f9bc!2zVHLGsOG7nW5nIENhbyDEkeG6s25nIFRo4buxYyBow6BuaCBGUFQgUG9seXRlY2huaWMgVFAuSENNIChDUzMp!5e0!3m2!1svi!2s!4v1677080457738!5m2!1svi!2s" width="300" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </ul>
+    </div>
+    </div>
+  </footer>
+  <div class="footer-bottom">
+    <p>
+      Copyright © 2024 WOOF MEOW SHOP. 
+    </p>
+  </div>
+  <script src="main.js"></script>
+ 
+  <script src="sp4.js"></script>
+  <script src="sp5.js"></script>
+</body>
+
+</html>

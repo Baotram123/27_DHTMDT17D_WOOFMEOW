@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in | sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form action="#">
+                <h1>Create Account</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" class="icon"><i class='bx bxl-google'></i></a>
+                    <a href="#" class="icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#" class="icon"><i class='bx bxl-github'></i></a>
+                </div>
+                <samp>Đăng nhập dễ dàng với email của bạn!</samp>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>Đăng ký</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form action="#">
+                <h1>Đăng nhập</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" class="icon"><i class='bx bxl-google'></i></a>
+                    <a href="#" class="icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#" class="icon"><i class='bx bxl-github'></i></a>
+                </div>
+                <samp>Sử dụng email đăng nhập</samp>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <a href="#" class="fp">Quên mật khẩu?</a>
+                <button>Đăng nhập</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Mừng bạn trở về nhà!</h1>
+                    <button class="hidden" id="login">Đăng nhập</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hola, my friends!</h1>
+                    <p> Bạn chưa có tài khoản?<br> Đăng ký ngay</p>
+                    <button class="hidden" id="register">Đăng ký</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

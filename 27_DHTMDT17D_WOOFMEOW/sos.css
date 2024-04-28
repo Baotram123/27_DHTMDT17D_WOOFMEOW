@@ -1,0 +1,349 @@
+     
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.sostd h1{
+    text-align:center;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.khung1, .khung3 {
+    flex: 0 1 48%;
+    padding: 30px;
+    border: 1px solid #ccc;
+}
+.khung2 {
+    flex: 0 1 90%;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.khung1 h2{
+    margin-bottom:20px;
+}
+.khung2 h2{
+    margin-bottom:20px;
+}
+.khung2 h6 {
+    float: left;
+    width: 58%; /* Đảm bảo phần nội dung chiếm 50% chiều rộng */
+    padding-right:10px;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-weight: normal;
+    font-size:18px;
+    border: 1px solid black; /* Thêm viền đen có độ rộng là 2px */
+
+}
+
+/* Định dạng hình ảnh */
+.khung2 img {
+    float: right;
+    width: 40%; /* Chiều rộng ảnh chiếm 50% của khung chứa */
+    border-radius: 8px; /* Bo tròn viền ảnh */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+    transition: transform 0.3s ease; /* Hiệu ứng khi di chuột qua */
+   
+}
+
+/* Hiệu ứng khi di chuột qua hình ảnh */
+.khung2 img:hover {
+    transform: scale(1.05); /* Phóng to hình ảnh khi di chuột qua */
+}
+
+.khung1 img{
+    border-radius: 8px; /* Bo tròn viền ảnh */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+    transition: transform 0.3s ease; /* Hiệu ứng khi di chuột qua */
+}
+.khung1 img:hover {
+    transform: scale(1.05); /* Phóng to hình ảnh khi di chuột qua */
+    margin-top:30px;
+}
+.thenn {
+   
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.KVnnPsQPCgV0484U1dlrVAHaEo&pid=Api&P=0&h=220'); 
+    background-size: cover; /* Đảm bảo hình ảnh được hiển thị đầy đủ trong kích thước màn hình */
+    background-position: center; 
+}
+.khung3 h2{
+    margin-bottom:20px;
+}
+.pet-card {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.pet-card img {
+    width: 80%;
+    border-radius: 5px;
+}
+
+.pet-card h3 {
+    margin-top: 10px;
+}
+
+.pet-card p {
+    margin: 5px 0;
+}
+
+.pet-card button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pet-card button:hover {
+    background-color: #555;
+}
+.contact-info {
+    background-color: #e32424;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align:center;
+    color:#fff;
+    
+}
+.contact-info h5{
+font-size:18px;
+margin-left: 65px;
+margin-right: 55px;
+}
+
+/* Áp dụng cho ảnh trong các khung */
+.khung1 img {
+    max-width: 480px; /* Giữ cho ảnh không bị tràn ra khỏi khung */
+    height: 380px; /* Đảm bảo tỷ lệ hình ảnh được duy trì */
+    display: block; /* Chuyển ảnh thành một khối phần tử để điều chỉnh các thuộc tính khối */
+    margin: 0 auto; /* Canh giữa ảnh trong khung */
+    border-radius: 5px; /* Bo tròn các góc của ảnh */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Đổ bóng cho ảnh */
+}
+
+.criteria-box {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.criteria-box h4 {
+    margin: 10px 0;
+}
+.criteria-box-tg {
+    background-color: #c9d4df;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+.criteria-box-tg h4 {
+    margin: 10px 0;
+}
+.register-button {
+    background-color: #ff0000; /* Màu đỏ */
+    color: #ffffff; /* Màu trắng cho chữ */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 0 auto; /* Canh giữa */
+}
+.register-button a{
+    color:#e0e0e0;
+}
+.register-button:hover {
+    background-color: #cc0000; /* Màu đỏ nhạt khi hover */
+}
+.khung1 {
+    background-color: #f0f0f0; /* Màu xám nhạt */
+}
+
+.khung2 {
+    background-color: #e0e0e0; /* Màu xám nhạt hơn */
+}
+
+.khung3 {
+    background-color: #d3d3d3; /* Màu xám trung bình */
+}
+
+.contact-info {
+    background-color: #e32424; /* Màu đỏ */
+}
+
+.criteria-box {
+    background-color: #ffcccc; /* Màu hồng nhạt */
+}
+
+/* sp liên quan*/
+
+  
+  
+  /* Slideshow container */
+  .splquan{
+    padding-top: 30px;
+  }
+  .splquan h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  /* Hide the images by default */
+  .mySlides1 {
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+   
+    text-align: center;
+     /* Chia màn hình thành 4 phần bằng nhau */
+     
+  }
+  .splquan1 {
+    display: flex; /* Đặt các card nằm ngang */
+    justify-content: space-between; /* Canh bố cục giữa các card */
+    flex: 0 1 90%;
+    padding: 30px;
+    border: 1px solid #ccc;
+  
+  }
+  
+  .splquan1 .mySlides1 {
+    width: 30%; /* Chỉnh size của mỗi card */
+    margin: 10px 20px 20px 10px;
+  }
+  
+  .splquan1 .mySlides1 img {
+    width: 100%; /* Ảnh chiếm toàn bộ chiều rộng của card */
+    height: 250px; /* Chiều cao tự động thay đổi theo tỷ lệ của ảnh */
+    margin-bottom:10px;
+  }
+  
+  .mySlides1 p a {
+    color: red; /* Đổi màu chữ của thẻ a trong thẻ p thành màu đỏ */
+    text-decoration: none; /* Loại bỏ gạch chân của thẻ a trong thẻ p */
+  }
+  
+  .mySlides1 button a {
+    color: white; /* Đổi màu chữ của thẻ a trong thẻ button thành màu trắng */
+    text-decoration: none; /* Loại bỏ gạch chân của thẻ a trong thẻ button */
+  }
+  .mySlides1 button {
+    background-color: #1a0113; /* Màu nền */
+    color: white; /* Màu chữ */
+    padding: 14px 20px; /* Đệm bên trong */
+    margin: 8px 0; /* Lề bên ngoài */
+    border: none; /* Bỏ viền */
+    cursor: pointer; /* Thay đổi con trỏ khi di chuột qua */
+    width: 100%; /* Chiều rộng của nút */
+    opacity: 0.9; /* Độ mờ đục */
+    transition: 0.3s; /* Hiệu ứng chuyển đổi màu sắc */
+  }
+  
+  .mySlides1 button:hover {
+    opacity: 1; /* Khi di chuột qua, nút sẽ trở nên hoàn toàn không trong suốt */
+    background-color: #b81e59; /* Khi di chuột qua, màu nền sẽ thay đổi */
+  }
+  .prev1, .next1 {
+    position: absolute;
+    bottom: -225%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    cursor: pointer;
+    
+  }
+  .prev1:hover, .next1:hover {
+    background-color: rgba(50, 124, 153, 0.8);
+  }
+  .prev1 {
+    left: 195px;
+  }
+  
+  .next1 {
+    right: 195px;
+  }
+  
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev1:hover, .next1:hover {
+  background-color: rgba(183, 23, 23, 0.8);
+  }
+  
+  /* Caption text */
+  .text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  
+  
+  .active {
+  background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+  }
+  
+  @keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+  }
+  
+  .image-row {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  .splquan {
+    clear: both; /* Đảm bảo rằng phần splquan sẽ nằm dưới phần khung2 */
+    margin-top: 10px; /* Khoảng cách top 30px giữa phần khung2 và phần splquan */
+}
+.khung2 p a{
+    color: red; /* Đặt màu chữ là màu đỏ */
+    text-decoration: underline; /* Tạo gạch dưới chữ */
+    font-weight: bold;
+}
